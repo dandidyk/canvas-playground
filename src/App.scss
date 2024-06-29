@@ -1,0 +1,73 @@
+.playground {
+  background-color: #444;
+  padding: 40px;
+  color: aliceblue;
+  height: 100vh;
+  h1 {
+    text-align: center;
+  }
+  &__background-input {
+    margin-bottom: 12px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 32px;
+  }
+  &__list {
+    width: 200px;
+    padding: 0;
+  }
+  &__element {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    div {
+      margin-bottom: 4px;
+    }
+    label {
+      display: block;
+      margin-bottom: 4px;
+      span {
+        display: inline-block;
+        margin-inline-end: 4px;
+        font-size: 18px;
+      }
+    }
+    input {
+      padding: 2px 16px;
+      background: #777;
+      border: 1px solid snow;
+      color: #fff ;
+      border-radius: 2px;
+      width: 80px;
+
+    }
+  }
+  &__canvas {
+    border-radius: 4px;
+    background-color: #ccc;
+    max-height: 600px;
+    background-size: cover;
+    background-position: center;
+    //background-image: url("https://images.unsplash.com/photo-1618924217601-502b99239681?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDJ8fHxlbnwwfHx8fHw%3D");
+  }
+  &__delete {
+    margin-top: 8px;
+    display: block;
+    background-color: transparent;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid snow;
+  }
+  &__create {
+    background-color: transparent;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 18px;
+    font-size: 18px;
+    border: 1px solid snow;
+    margin: 16px auto;
+    display: block;
+  }
+}
